@@ -3,7 +3,7 @@
 Set de endpoints de prueba para comenzar a familizarse con una RESTful API.
 
 ## URL actual
-https://shopping-api-lsvctkqwuc.now.sh 
+https://shopping-api-nkeapfkcbv.now.sh
 
 ## Endpoints
 
