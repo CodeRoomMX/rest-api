@@ -19,10 +19,31 @@ Obtener los datos del item especificado por el parámetro id.
 
 Crear un item en el bucket del usuario especificado.
 
-_Body_
+_Parámetros del body_
+
+**name**. Nombre del item a insertar.
 ```json
-{ name: sandía } 
+{ "name": "sandía" } 
 ```
+`PUT /:username/items/:id`
+
+Actualizar el item seleccionado en el bucket del usuario especificado.
+
+_Parámetros del body_
+
+**name**. Nombre del item a insertar.
+
+**checked**. Especifica si el item ya ha sido seleccionado o no.
+```json
+{ 
+  "name": "sandía",
+  "checked": "true"
+} 
+```
+
+`DELETE /:username/items/:id`
+
+Borrar el item seleccionado del bucket del usuario especificado.
 
 ## Local Development
 ### Requisitos
